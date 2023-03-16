@@ -4,7 +4,7 @@ This is a JavaScript application that generates random memes, jokes, and quotes 
 
 ## Live Site
 
-Visit the [live site]() to see the application in action.
+Visit the [live site](https://husseinserhan.github.io/Random-Generator-of-ChatGPT-Memes-Jokes-and-Quotes/) to see the application in action.
 
 ![Demo Gif](demo.gif)
 
