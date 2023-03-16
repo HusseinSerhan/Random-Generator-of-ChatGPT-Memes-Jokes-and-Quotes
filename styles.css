@@ -188,3 +188,38 @@ h2, h3 {
 
 }
 
+/* Adjust font size for Iphone SE */
+@media screen and (max-width: 1400px) {
+  #joke{
+    font-size: 21px;
+  }
+  #quote{
+      font-size: 21px;
+    }
+    #author{
+      font-size: 16px;
+    }
+    img {
+      max-height: 500px;
+    }
+
+}
+
+@media only screen and (max-device-width: 400px) {
+  #joke{
+    font-size: 16px;
+  }
+  #quote{
+      font-size: 16px;
+    }
+    #author{
+      font-size: 12px;
+    }
+    img {
+      max-height: 500px;
+    }
+
+    h2 {
+      font-size: 18px;
+    }
+}
