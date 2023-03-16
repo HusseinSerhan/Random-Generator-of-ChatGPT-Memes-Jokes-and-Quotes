@@ -170,3 +170,20 @@ h2, h3 {
       }
 
   }
+
+/* Adjust font size for medium screens */
+@media screen and (max-width: 1300px) {
+  #joke{
+    font-size: 21px;
+  }
+  #quote{
+      font-size: 21px;
+    }
+    #author{
+      font-size: 18px;
+    }
+    img {
+      max-height: 500px;
+    }
+
+}
