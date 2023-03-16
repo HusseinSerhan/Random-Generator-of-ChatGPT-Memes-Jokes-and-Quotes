@@ -1,0 +1,172 @@
+
+
+body {
+    background-color: #41b2ea;
+    color: black;
+    text-shadow: 2px 2px 0px rgb(255, 255, 255);
+    font-family: Impact, sans-serif;
+    text-align: center;
+  }
+
+h2, h3 {
+    text-align: center;
+}
+  
+  main {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+  }
+  
+  img {
+    max-width: 600px;
+    width: 100%;
+    max-height: 400px;
+  }
+  
+  p {
+    color: #000000;
+    align-items: center;
+  }
+  
+  a {
+    color: rgb(0, 0, 0);
+  }
+  
+  a:hover {
+    opacity: 0.8;
+  }
+  
+  .content {
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 85vh;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .content p {
+    max-width: 100%;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-left: 2px dotted #ffffff;
+    height: 85vh;
+    text-align: center;
+    align-items: center;
+  }
+  
+  button {
+    width: 200px;
+    max-width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 35px;
+    border: 1px solid #000000;
+    background: white;
+    color: #000000;
+    border-radius: 5px;
+    box-shadow: 1px 2px 5px 1px;
+    text-align: center;
+  }
+  
+  button:hover {
+    cursor: pointer;
+    background-color: rgb(227, 227, 227)
+  }
+  
+  .reveal-btn {
+    border: none;
+    margin: 0;
+    border: 1px solid #000000;
+  }
+  
+  .reveal-btn:hover {
+    color: black;
+    background-color: rgb(227, 227, 227);
+    border: 1px solid #000000;
+  }
+
+#joke {
+    color: #ffffff;
+    font-family: Impact, sans-serif;
+    width: 100%;
+    font-size: 40px;
+    line-height: 1.2;
+    text-shadow: 2px 2px 0px white;
+    max-width: 600px;
+    max-height: 400px;
+    align-items: center;
+    text-align: center;
+}
+
+#quote {
+    color: #ffffff;
+    font-family: Impact, sans-serif;
+    width: 100%;
+    font-size: 40px;
+    line-height: 1.2;
+    text-shadow: 2px 2px 0px white;
+    color: rgb(0, 0, 0);
+    max-width: 600px;
+    max-height: 400px;
+
+}
+
+#author {
+    color: #ffffff;
+    font-family: Impact, sans-serif;
+    width: 100%;
+    font-size: 25px;
+    line-height: 1.2;
+    text-shadow: 2px 2px 0px rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    max-width: 600px;
+    max-height: 400px;
+
+}
+
+/* Adjust font size for smaller screens */
+@media screen and (max-width: 600px) {
+    #joke{
+      font-size: 18px;
+    }
+    #quote{
+        font-size: 18px;
+      }
+      #author{
+        font-size: 12px;
+      }
+      img {
+        max-height: 500px;
+      }
+
+  }
+
+/* Adjust font size for medium screens */
+@media screen and (max-width: 1000px) {
+    #joke{
+      font-size: 18px;
+    }
+    #quote{
+        font-size: 18px;
+      }
+      #author{
+        font-size: 12px;
+      }
+      img {
+        max-height: 500px;
+      }
+
+  }
